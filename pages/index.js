@@ -86,7 +86,7 @@ export default ({ songs }) => (
       <Description>A personal collection of songs, built with 
         <Links href="https://nextjs.org/"> Next.JS</Links>, 
         <Links href="https://styled-components.com/"> Styled Components</Links> and 
-        <Links href="https://www.prisma.io/"> Prisma/PostgresSQL</Links>.
+        <Links href="https://www.prisma.io/"> Prisma/PostgreSQL</Links>.
       </Description>
       <ListBox>
         {songs.map((song) => (
